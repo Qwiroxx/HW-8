@@ -1,0 +1,19 @@
+#greycol{color: gray;}
+div div p{color: red;}
+div h3:first-child{color: pink;}
+.yellow{color: yellow;}
+div>div+h3+p{color: green;}
+#Monday:hover{color: blue;}
+#Tuesday:hover{color: red;}
+#Wednesday:hover{color: orange;}
+#Thursday:hover{color:pink;}
+#Friday:hover{color: green;}
+#Monday+ol li:nth-child(2n+2){color: blueviolet;}
+#Monday+ol li:nth-child(odd){color: chocolate;}
+#Tuesday+ol li:nth-child(2n+1){color: blue;}
+#Tuesday+ol li:nth-child(even){color:gold;}
+#Wednesday+ol li:nth-child(odd){color: red;}
+#Thursday+ol li:nth-child(-n+4){color: cadetblue;}
+#Thursday+ol li:nth-child(n+5):hover{color: chartreuse;}
+#Friday+ol li:nth-child(2n+3){color: crimson;}
+#Friday+ol li:nth-child(2n+2){color: cornflowerblue;}
